@@ -40,8 +40,8 @@ namespace esercizio12
                 array = MergeSort.Mergesort.mergeSort(array20);
                 s.Stop();
                 elapsed = s.ElapsedMilliseconds;
-                w.WriteLine($"MergSort ; {array20.Length} ; {elapsed}");
-                Console.WriteLine($"MergSort ; {array20.Length} ; {elapsed}");
+                w.WriteLine($"MergeSort ; {array20.Length} ; {elapsed}");
+                Console.WriteLine($"MergeSort ; {array20.Length} ; {elapsed}");
                 s.Reset();
                 s.Start();
                 array = InsertionSort.insertionsort.InsertionSortByShift(array20);
